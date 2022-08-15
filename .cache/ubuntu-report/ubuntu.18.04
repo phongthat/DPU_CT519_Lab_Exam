@@ -1,0 +1,59 @@
+{
+  "Version": "18.04",
+  "OEM": {
+    "Vendor": "VMware, Inc.",
+    "Product": "VMware Virtual Platform"
+  },
+  "BIOS": {
+    "Vendor": "Phoenix Technologies LTD",
+    "Version": "6.00"
+  },
+  "CPU": [
+    {
+      "Vendor": "GenuineIntel",
+      "Family": "6",
+      "Model": "140",
+      "Stepping": "1"
+    },
+    {
+      "Vendor": "GenuineIntel",
+      "Family": "6",
+      "Model": "140",
+      "Stepping": "1"
+    }
+  ],
+  "Arch": "amd64",
+  "RAM": 2,
+  "Partitions": [
+    20.5
+  ],
+  "Screens": [
+    {
+      "Resolution": "1223x836",
+      "Frequency": "60.00"
+    }
+  ],
+  "Autologin": false,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "x11"
+  },
+  "Timezone": "America/Los_Angeles",
+  "Install": {
+    "Media": "Ubuntu 18.04 LTS \"Bionic Beaver\" - Release amd64 (20180426)",
+    "Type": "GTK",
+    "DownloadUpdates": false,
+    "Language": "en",
+    "Minimal": true,
+    "RestrictedAddons": true,
+    "Stages": {
+      "0": "language",
+      "8": "start_install",
+      "-25182": "usersetup",
+      "-25168": "user_done",
+      "-24350": "done"
+    }
+  }
+}
